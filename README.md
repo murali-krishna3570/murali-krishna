@@ -2,29 +2,62 @@
 
 👨‍💻 About Me
 
-Python Developer | Django | SQL | MySQL DBA  
-Experience in building automation systems and web applications.
+Python Developer & Junior Database Administrator with hands-on experience in building
+database-driven web applications. Strong in Django development and MySQL / SQL Server
+administration, including performance tuning and automation.
 
-🔧 Skills
+🔧 Technical Skills
 
-- Python, Django
+
+Programming & Backend
+- Python
+- Django
+- REST APIs
+- Pandas, NumPy, OpenCV
+
+Database & DBA
 - MySQL, SQL Server
-- HTML, CSS
-- Pandas, Numpy, OpenCV
+- User Management & Security
+- Backup & Restore
+- Automation of Backup
+- Indexing & Query Optimization
+- Performance Monitoring
 
-🚀 Projects
+### Frontend & Tools
+- HTML, CSS, JS
+- Git, GitHub
 
-1️⃣ Digital Attendance System
+🚀 Projects (Python + DBA Combined)
+
+1️⃣ Digital Attendance System (Python + MySQL)
+
 - Face recognition using OpenCV
-- Django backend
-- MySQL database
+- Django backend with MySQL
+- Database schema design and optimization
+- Automated attendance reports  
 
 
-2️⃣ Task & Reminder Automation System
-- Email notifications
+2️⃣ Task & Reminder Automation System (Python + SQL)
+
+- Email notifications and task scheduling
 - User authentication
-- Django + MySQL
+- Employee Tables
 
+3️⃣ MySQL DBA Automation & Scripts
+
+- Database creation & user roles
+- Backup and restore scripts
+- Query performance tuning
+- Bulk Logins Creation
+- Giving appropriate roles to users  
+
+
+4️⃣ SQL Server DBA Practice
+
+- Backup strategies
+- Execution plan analysis
+- Index and performance optimization
 
 📫 Contact
-- Email: muralikrishna3570@gmail.com
+
+- 📧 Email: muralikrishna3570@gmail.com
