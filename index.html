@@ -1,294 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Murali Krishna | Python Developer & DBA</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  </head>
+  <body>
     <!-- Header & Navigation -->
     <header>
-        <div class="container">
-            <nav>
-                <a href="#" class="logo">Murali<span>Krishna</span></a>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
-        </div>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo">Murali<span>Krishna</span></a>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>👋 Hi, I'm <span>Murali Krishna</span></h1>
-                    <p><span class="highlight">Python Developer & Junior Database Administrator</span> with hands-on experience in building database-driven web applications. Strong in Django development and MySQL / SQL Server administration.</p>
-                    <a href="#projects" class="btn">View My Projects</a>
-                    <a href="#contact" class="btn btn-outline">Contact Me</a>
-                </div>
-                <div class="hero-image">
-                    <div class="code-window">
-                        <div class="window-header">
-                            <div class="window-dot red"></div>
-                            <div class="window-dot yellow"></div>
-                            <div class="window-dot green"></div>
-                        </div>
-                        <div class="code-content">
-                            <p><span class="code-keyword">class</span> <span class="code-function">Portfolio</span>:</p>
-                            <p>&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-function">__init__</span>(<span class="code-keyword">self</span>):</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">self</span>.name = <span class="code-string">"Murali Krishna"</span></p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">self</span>.role = <span class="code-string">"Python Developer & DBA"</span></p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">self</span>.skills = [<span class="code-string">"Python"</span>, <span class="code-string">"Django"</span>, <span class="code-string">"MySQL"</span>]</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">self</span>.experience = <span class="code-string">"Database-driven web applications"</span></p>
-                            <br>
-                            <p><span class="code-comment"># Performance tuning & automation expert</span></p>
-                            <p><span class="code-var">portfolio</span> = <span class="code-function">Portfolio</span>()</p>
-                            <p><span class="code-function">print</span>(<span class="code-string">f"Welcome to {portfolio.name}'s portfolio"</span>)</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>👋 Hi, I'm <span>Murali Krishna</span></h1>
+            <p>
+              <span class="highlight"
+                >Python Developer & Junior Database Administrator</span
+              >
+              with hands-on experience in building database-driven web
+              applications. Strong in Django development and MySQL / SQL Server
+              administration.
+            </p>
+            <a href="#projects" class="btn">View My Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+            <a
+              href="assets/resume.pdf"
+              download="Murali_Krishna_Resume.pdf"
+              class="btn btn-resume"
+              style="margin-left: 15px"
+            >
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+          <div class="hero-image">
+            <div class="code-window">
+              <div class="window-header">
+                <div class="window-dot red"></div>
+                <div class="window-dot yellow"></div>
+                <div class="window-dot green"></div>
+              </div>
+              <div class="code-content">
+                <p>
+                  <span class="code-keyword">class</span>
+                  <span class="code-function">Portfolio</span>:
+                </p>
+                <p>
+                  &nbsp;&nbsp;<span class="code-keyword">def</span>
+                  <span class="code-function">__init__</span>(<span
+                    class="code-keyword"
+                    >self</span
+                  >):
+                </p>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">self</span
+                  >.name = <span class="code-string">"Murali Krishna"</span>
+                </p>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">self</span
+                  >.role =
+                  <span class="code-string">"Python Developer & DBA"</span>
+                </p>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">self</span
+                  >.skills = [<span class="code-string">"Python"</span>,
+                  <span class="code-string">"Django"</span>,
+                  <span class="code-string">"MySQL"</span>]
+                </p>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">self</span
+                  >.experience =
+                  <span class="code-string"
+                    >"Database-driven web applications"</span
+                  >
+                </p>
+                <br />
+                <p>
+                  <span class="code-comment"
+                    ># Performance tuning & automation expert</span
+                  >
+                </p>
+                <p>
+                  <span class="code-var">portfolio</span> =
+                  <span class="code-function">Portfolio</span>()
+                </p>
+                <p>
+                  <span class="code-function">print</span>(<span
+                    class="code-string"
+                    >f"Welcome to {portfolio.name}'s portfolio"</span
+                  >)
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">👨‍💻 About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a passionate Python Developer and Junior Database Administrator with expertise in creating robust, database-driven web applications. My background includes hands-on experience with Django framework and extensive work with MySQL and SQL Server databases.</p>
-                    <p>I specialize in performance tuning, automation, and implementing efficient database solutions. My approach combines strong backend development skills with database administration to create optimized, scalable applications.</p>
-                    <p>I enjoy solving complex problems and continuously learning new technologies to enhance my skill set and deliver high-quality solutions.</p>
-                </div>
-                <div class="skills-categories">
-                    <div class="skill-category">
-                        <h3><i class="fas fa-code"></i> Programming & Backend</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">Django</span>
-                            <span class="skill-tag">REST APIs</span>
-                            <span class="skill-tag">Pandas</span>
-                            <span class="skill-tag">NumPy</span>
-                            <span class="skill-tag">OpenCV</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3><i class="fas fa-database"></i> Database & DBA</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag db">MySQL</span>
-                            <span class="skill-tag db">SQL Server</span>
-                            <span class="skill-tag db">User Management</span>
-                            <span class="skill-tag db">Backup & Restore</span>
-                            <span class="skill-tag db">Automation</span>
-                            <span class="skill-tag db">Query Optimization</span>
-                            <span class="skill-tag db">Performance Monitoring</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3><i class="fas fa-tools"></i> Frontend & Tools</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag frontend">HTML</span>
-                            <span class="skill-tag frontend">CSS</span>
-                            <span class="skill-tag frontend">JavaScript</span>
-                            <span class="skill-tag frontend">Git</span>
-                            <span class="skill-tag frontend">GitHub</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">👨‍💻 About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate Python Developer and Junior Database
+              Administrator with expertise in creating robust, database-driven
+              web applications. My background includes hands-on experience with
+              Django framework and extensive work with MySQL and SQL Server
+              databases.
+            </p>
+            <p>
+              I specialize in performance tuning, automation, and implementing
+              efficient database solutions. My approach combines strong backend
+              development skills with database administration to create
+              optimized, scalable applications.
+            </p>
+            <p>
+              I enjoy solving complex problems and continuously learning new
+              technologies to enhance my skill set and deliver high-quality
+              solutions.
+            </p>
+          </div>
+          <div class="skills-categories">
+            <div class="skill-category">
+              <h3><i class="fas fa-code"></i> Programming & Backend</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Django</span>
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">Pandas</span>
+                <span class="skill-tag">NumPy</span>
+                <span class="skill-tag">OpenCV</span>
+              </div>
             </div>
+            <div class="skill-category">
+              <h3><i class="fas fa-database"></i> Database & DBA</h3>
+              <div class="skill-tags">
+                <span class="skill-tag db">MySQL</span>
+                <span class="skill-tag db">SQL Server</span>
+                <span class="skill-tag db">User Management</span>
+                <span class="skill-tag db">Backup & Restore</span>
+                <span class="skill-tag db">Automation</span>
+                <span class="skill-tag db">Query Optimization</span>
+                <span class="skill-tag db">Performance Monitoring</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3><i class="fas fa-tools"></i> Frontend & Tools</h3>
+              <div class="skill-tags">
+                <span class="skill-tag frontend">HTML</span>
+                <span class="skill-tag frontend">CSS</span>
+                <span class="skill-tag frontend">JavaScript</span>
+                <span class="skill-tag frontend">Git</span>
+                <span class="skill-tag frontend">GitHub</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="section projects">
-        <div class="container">
-            <h2 class="section-title">🚀 Projects (Python + DBA)</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Digital Attendance System</h3>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>OpenCV</span>
-                            <span>Django</span>
-                            <span>MySQL</span>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p>Face recognition attendance system with database optimization and automated reporting.</p>
-                        <ul class="project-features">
-                            <li><i class="fas fa-check-circle"></i> Face recognition using OpenCV</li>
-                            <li><i class="fas fa-check-circle"></i> Django backend with MySQL</li>
-                            <li><i class="fas fa-check-circle"></i> Database schema design & optimization</li>
-                            <li><i class="fas fa-check-circle"></i> Automated attendance reports</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Task & Reminder Automation</h3>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>SQL</span>
-                            <span>Automation</span>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p>Automated task scheduling and notification system with user authentication.</p>
-                        <ul class="project-features">
-                            <li><i class="fas fa-check-circle"></i> Email notifications & task scheduling</li>
-                            <li><i class="fas fa-check-circle"></i> User authentication system</li>
-                            <li><i class="fas fa-check-circle"></i> Employee tables management</li>
-                            <li><i class="fas fa-check-circle"></i> SQL database integration</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>MySQL DBA Automation & Scripts</h3>
-                        <div class="project-tech">
-                            <span>MySQL</span>
-                            <span>Automation</span>
-                            <span>Bash/Python</span>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p>Database administration automation scripts for efficient management.</p>
-                        <ul class="project-features">
-                            <li><i class="fas fa-check-circle"></i> Database creation & user roles</li>
-                            <li><i class="fas fa-check-circle"></i> Backup and restore scripts</li>
-                            <li><i class="fas fa-check-circle"></i> Query performance tuning</li>
-                            <li><i class="fas fa-check-circle"></i> Bulk user management</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>SQL Server DBA</h3>
-                        <div class="project-tech">
-                            <span>SQL Server</span>
-                            <span>Performance</span>
-                            <span>Optimization</span>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p>Performance optimization and administration for SQL Server databases.</p>
-                        <ul class="project-features">
-                            <li><i class="fas fa-check-circle"></i> Backup strategies implementation</li>
-                            <li><i class="fas fa-check-circle"></i> Execution plan analysis</li>
-                            <li><i class="fas fa-check-circle"></i> Index & performance optimization</li>
-                            <li><i class="fas fa-check-circle"></i> Monitoring and maintenance</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">🚀 Projects (Python + DBA)</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Digital Attendance System</h3>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>OpenCV</span>
+                <span>Django</span>
+                <span>MySQL</span>
+              </div>
             </div>
+            <div class="project-body">
+              <p>
+                Face recognition attendance system with database optimization
+                and automated reporting.
+              </p>
+              <ul class="project-features">
+                <li>
+                  <i class="fas fa-check-circle"></i> Face recognition using
+                  OpenCV
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Django backend with MySQL
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Database schema design &
+                  optimization
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Automated attendance
+                  reports
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Task & Reminder Automation</h3>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Automation</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p>
+                Automated task scheduling and notification system with user
+                authentication.
+              </p>
+              <ul class="project-features">
+                <li>
+                  <i class="fas fa-check-circle"></i> Email notifications & task
+                  scheduling
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> User authentication system
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Employee tables management
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> SQL database integration
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>MySQL DBA Automation & Scripts</h3>
+              <div class="project-tech">
+                <span>MySQL</span>
+                <span>Automation</span>
+                <span>Bash/Python</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p>
+                Database administration automation scripts for efficient
+                management.
+              </p>
+              <ul class="project-features">
+                <li>
+                  <i class="fas fa-check-circle"></i> Database creation & user
+                  roles
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Backup and restore scripts
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Query performance tuning
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Bulk user management
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>SQL Server DBA</h3>
+              <div class="project-tech">
+                <span>SQL Server</span>
+                <span>Performance</span>
+                <span>Optimization</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p>
+                Performance optimization and administration for SQL Server
+                databases.
+              </p>
+              <ul class="project-features">
+                <li>
+                  <i class="fas fa-check-circle"></i> Backup strategies
+                  implementation
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Execution plan analysis
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Index & performance
+                  optimization
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Monitoring and maintenance
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">📫 Contact</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h4>Email</h4>
-                            <p>muralikrishna3570@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h4>Location</h4>
-                            <p>Available for remote & onsite opportunities</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-briefcase"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h4>Availability</h4>
-                            <p>Open to Python Developer & DBA roles</p>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://github.com/yourusername" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/yourusername" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://twitter.com/yourusername" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="https://codepen.io/yourusername" class="social-link" target="_blank"><i class="fab fa-codepen"></i></a>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" placeholder="Message Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
+      <div class="container">
+        <h2 class="section-title">📫 Contact</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>muralikrishna3570@gmail.com</p>
+              </div>
             </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>Available for remote & onsite opportunities</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Availability</h4>
+                <p>Open to Python Developer & DBA roles</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://github.com/yourusername"
+                class="social-link"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://linkedin.com/in/yourusername"
+                class="social-link"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://twitter.com/yourusername"
+                class="social-link"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://codepen.io/yourusername"
+                class="social-link"
+                target="_blank"
+                ><i class="fab fa-codepen"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  placeholder="Message Subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <a href="#" class="footer-logo">Murali<span>Krishna</span></a>
-                <ul class="footer-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <p>Python Developer & Junior Database Administrator | Database-driven Web Applications</p>
-            </div>
-            <div class="copyright">
-                <p>&copy; <span id="currentYear"></span> Murali Krishna. All rights reserved.</p>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <a href="#" class="footer-logo">Murali<span>Krishna</span></a>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <p>
+            Python Developer & Junior Database Administrator | Database-driven
+            Web Applications
+          </p>
         </div>
+        <div class="copyright">
+          <p>
+            &copy; <span id="currentYear"></span> Murali Krishna. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
