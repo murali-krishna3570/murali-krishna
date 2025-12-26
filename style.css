@@ -598,3 +598,19 @@ footer {
         margin: 10px 0;
     }
 }
+
+
+
+/* Add to your CSS file */
+.btn-resume {
+    background-color: var(--success-color);
+    margin-top: 10px;
+}
+
+.btn-resume:hover {
+    background-color: #0da271;
+}
+
+.btn i {
+    margin-right: 8px;
+}
